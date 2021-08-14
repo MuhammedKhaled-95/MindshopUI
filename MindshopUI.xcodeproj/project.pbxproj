@@ -1,0 +1,1152 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D198EA026ABB39000622AEA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D198E9F26ABB39000622AEA /* AppDelegate.swift */; };
+		0D198EA226ABB39000622AEA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D198EA126ABB39000622AEA /* SceneDelegate.swift */; };
+		0D198EA426ABB39000622AEA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D198EA326ABB39000622AEA /* ContentView.swift */; };
+		0D198EA626ABB39200622AEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D198EA526ABB39200622AEA /* Assets.xcassets */; };
+		0D198EA926ABB39200622AEA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D198EA826ABB39200622AEA /* Preview Assets.xcassets */; };
+		0D198EAC26ABB39200622AEA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D198EAA26ABB39200622AEA /* LaunchScreen.storyboard */; };
+		0D198EB726ABB39200622AEA /* MindshopUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D198EB626ABB39200622AEA /* MindshopUITests.swift */; };
+		0D198EC226ABB39300622AEA /* MindshopUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D198EC126ABB39300622AEA /* MindshopUIUITests.swift */; };
+		0D198EDE26ABDA5C00622AEA /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0D198EDD26ABDA5C00622AEA /* GoogleService-Info.plist */; };
+		0D198EE026ABE09000622AEA /* AppConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D198EDF26ABE09000622AEA /* AppConfig.swift */; };
+		0D198EE526ABFA2E00622AEA /* ConfigHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D198EE426ABFA2E00622AEA /* ConfigHelper.swift */; };
+		0D3612D626C60B6600F2FA6A /* Font-Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D3612D526C60B6600F2FA6A /* Font-Extention.swift */; };
+		0D3D203B90CABB5CEF569DF9 /* Pods_MindshopUI_MindshopUIUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62FB75E183BFE81721E4E697 /* Pods_MindshopUI_MindshopUIUITests.framework */; };
+		0DC96A7326AD3F1600E6C746 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DC96A7226AD3F1600E6C746 /* Product.swift */; };
+		0DC96A7526AD3F2000E6C746 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DC96A7426AD3F2000E6C746 /* Category.swift */; };
+		0DC96A7926AD497600E6C746 /* Onboarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DC96A7826AD497600E6C746 /* Onboarding.swift */; };
+		7E43AEB08FC515E22B76FBDB /* Pods_MindshopUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CA9858617CBD5B9EE1107AD /* Pods_MindshopUI.framework */; };
+		9C28161CC91B3EF4D67D8663 /* Pods_MindshopUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 895E2D9D67F6AE5886C7F530 /* Pods_MindshopUITests.framework */; };
+		A52249F426B57B1700F479FA /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A52249F326B57B1700F479FA /* Constants.swift */; };
+		A564BFCA26BDE2C2001AA70E /* Popups.swift in Sources */ = {isa = PBXBuildFile; fileRef = A564BFC926BDE2C2001AA70E /* Popups.swift */; };
+		A564BFCC26BDE471001AA70E /* PopupViewer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A564BFCB26BDE471001AA70E /* PopupViewer.swift */; };
+		A565E1A926BEAD550099F634 /* MyCartScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = A565E1A826BEAD550099F634 /* MyCartScreen.swift */; };
+		A576539126BB28DC00EBCA59 /* PopularCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = A576539026BB28DC00EBCA59 /* PopularCard.swift */; };
+		A5837A5E26B4691600B344C2 /* SignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5837A5D26B4691600B344C2 /* SignUp.swift */; };
+		A5837A6226B4877100B344C2 /* Quicksand-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A5837A6126B4877000B344C2 /* Quicksand-VariableFont_wght.ttf */; };
+		A5837A6326B4877100B344C2 /* Quicksand-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A5837A6126B4877000B344C2 /* Quicksand-VariableFont_wght.ttf */; };
+		A5837A6426B4877100B344C2 /* Quicksand-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A5837A6126B4877000B344C2 /* Quicksand-VariableFont_wght.ttf */; };
+		A5837A6F26B4897800B344C2 /* ZillaSlab-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A5837A6526B4897600B344C2 /* ZillaSlab-MediumItalic.ttf */; };
+		A5837A7026B4897800B344C2 /* ZillaSlab-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A5837A6526B4897600B344C2 /* ZillaSlab-MediumItalic.ttf */; };
+		A5837A7126B4897800B344C2 /* ZillaSlab-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A5837A6526B4897600B344C2 /* ZillaSlab-MediumItalic.ttf */; };
+		A5837A7226B4897800B344C2 /* ZillaSlab-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A5837A6626B4897600B344C2 /* ZillaSlab-Italic.ttf */; };
+		A5837A7326B4897800B344C2 /* ZillaSlab-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A5837A6626B4897600B344C2 /* ZillaSlab-Italic.ttf */; };
+		A5837A7426B4897800B344C2 /* ZillaSlab-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A5837A6626B4897600B344C2 /* ZillaSlab-Italic.ttf */; };
+		A5837A7526B4897800B344C2 /* ZillaSlab-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A5837A6726B4897600B344C2 /* ZillaSlab-LightItalic.ttf */; };
+		A5837A7626B4897800B344C2 /* ZillaSlab-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A5837A6726B4897600B344C2 /* ZillaSlab-LightItalic.ttf */; };
+		A5837A7726B4897800B344C2 /* ZillaSlab-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A5837A6726B4897600B344C2 /* ZillaSlab-LightItalic.ttf */; };
+		A5837A7826B4897800B344C2 /* ZillaSlab-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A5837A6826B4897700B344C2 /* ZillaSlab-BoldItalic.ttf */; };
+		A5837A7926B4897800B344C2 /* ZillaSlab-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A5837A6826B4897700B344C2 /* ZillaSlab-BoldItalic.ttf */; };
+		A5837A7A26B4897800B344C2 /* ZillaSlab-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A5837A6826B4897700B344C2 /* ZillaSlab-BoldItalic.ttf */; };
+		A5837A7B26B4897800B344C2 /* ZillaSlab-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A5837A6926B4897700B344C2 /* ZillaSlab-Light.ttf */; };
+		A5837A7C26B4897800B344C2 /* ZillaSlab-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A5837A6926B4897700B344C2 /* ZillaSlab-Light.ttf */; };
+		A5837A7D26B4897800B344C2 /* ZillaSlab-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A5837A6926B4897700B344C2 /* ZillaSlab-Light.ttf */; };
+		A5837A7E26B4897800B344C2 /* ZillaSlab-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A5837A6A26B4897700B344C2 /* ZillaSlab-SemiBoldItalic.ttf */; };
+		A5837A7F26B4897800B344C2 /* ZillaSlab-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A5837A6A26B4897700B344C2 /* ZillaSlab-SemiBoldItalic.ttf */; };
+		A5837A8026B4897800B344C2 /* ZillaSlab-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A5837A6A26B4897700B344C2 /* ZillaSlab-SemiBoldItalic.ttf */; };
+		A5837A8126B4897800B344C2 /* ZillaSlab-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A5837A6B26B4897700B344C2 /* ZillaSlab-Medium.ttf */; };
+		A5837A8226B4897800B344C2 /* ZillaSlab-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A5837A6B26B4897700B344C2 /* ZillaSlab-Medium.ttf */; };
+		A5837A8326B4897800B344C2 /* ZillaSlab-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A5837A6B26B4897700B344C2 /* ZillaSlab-Medium.ttf */; };
+		A5837A8426B4897800B344C2 /* ZillaSlab-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A5837A6C26B4897700B344C2 /* ZillaSlab-Bold.ttf */; };
+		A5837A8526B4897800B344C2 /* ZillaSlab-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A5837A6C26B4897700B344C2 /* ZillaSlab-Bold.ttf */; };
+		A5837A8626B4897800B344C2 /* ZillaSlab-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A5837A6C26B4897700B344C2 /* ZillaSlab-Bold.ttf */; };
+		A5837A8726B4897800B344C2 /* ZillaSlab-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A5837A6D26B4897700B344C2 /* ZillaSlab-Regular.ttf */; };
+		A5837A8826B4897800B344C2 /* ZillaSlab-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A5837A6D26B4897700B344C2 /* ZillaSlab-Regular.ttf */; };
+		A5837A8926B4897800B344C2 /* ZillaSlab-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A5837A6D26B4897700B344C2 /* ZillaSlab-Regular.ttf */; };
+		A5837A8A26B4897800B344C2 /* ZillaSlab-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A5837A6E26B4897800B344C2 /* ZillaSlab-SemiBold.ttf */; };
+		A5837A8B26B4897800B344C2 /* ZillaSlab-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A5837A6E26B4897800B344C2 /* ZillaSlab-SemiBold.ttf */; };
+		A5837A8C26B4897800B344C2 /* ZillaSlab-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A5837A6E26B4897800B344C2 /* ZillaSlab-SemiBold.ttf */; };
+		A5837A9B26B48C4F00B344C2 /* Nunito-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A5837A8D26B48C4D00B344C2 /* Nunito-ExtraBold.ttf */; };
+		A5837A9C26B48C4F00B344C2 /* Nunito-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A5837A8D26B48C4D00B344C2 /* Nunito-ExtraBold.ttf */; };
+		A5837A9D26B48C4F00B344C2 /* Nunito-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A5837A8D26B48C4D00B344C2 /* Nunito-ExtraBold.ttf */; };
+		A5837A9E26B48C4F00B344C2 /* Nunito-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A5837A8E26B48C4E00B344C2 /* Nunito-BoldItalic.ttf */; };
+		A5837A9F26B48C4F00B344C2 /* Nunito-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A5837A8E26B48C4E00B344C2 /* Nunito-BoldItalic.ttf */; };
+		A5837AA026B48C4F00B344C2 /* Nunito-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A5837A8E26B48C4E00B344C2 /* Nunito-BoldItalic.ttf */; };
+		A5837AA126B48C4F00B344C2 /* Nunito-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A5837A8F26B48C4E00B344C2 /* Nunito-LightItalic.ttf */; };
+		A5837AA226B48C4F00B344C2 /* Nunito-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A5837A8F26B48C4E00B344C2 /* Nunito-LightItalic.ttf */; };
+		A5837AA326B48C4F00B344C2 /* Nunito-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A5837A8F26B48C4E00B344C2 /* Nunito-LightItalic.ttf */; };
+		A5837AA426B48C4F00B344C2 /* Nunito-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A5837A9026B48C4E00B344C2 /* Nunito-Black.ttf */; };
+		A5837AA526B48C4F00B344C2 /* Nunito-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A5837A9026B48C4E00B344C2 /* Nunito-Black.ttf */; };
+		A5837AA626B48C4F00B344C2 /* Nunito-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A5837A9026B48C4E00B344C2 /* Nunito-Black.ttf */; };
+		A5837AA726B48C4F00B344C2 /* Nunito-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A5837A9126B48C4E00B344C2 /* Nunito-ExtraBoldItalic.ttf */; };
+		A5837AA826B48C4F00B344C2 /* Nunito-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A5837A9126B48C4E00B344C2 /* Nunito-ExtraBoldItalic.ttf */; };
+		A5837AA926B48C4F00B344C2 /* Nunito-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A5837A9126B48C4E00B344C2 /* Nunito-ExtraBoldItalic.ttf */; };
+		A5837AAA26B48C4F00B344C2 /* Nunito-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A5837A9226B48C4E00B344C2 /* Nunito-Bold.ttf */; };
+		A5837AAB26B48C4F00B344C2 /* Nunito-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A5837A9226B48C4E00B344C2 /* Nunito-Bold.ttf */; };
+		A5837AAC26B48C4F00B344C2 /* Nunito-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A5837A9226B48C4E00B344C2 /* Nunito-Bold.ttf */; };
+		A5837AAD26B48C4F00B344C2 /* Nunito-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A5837A9326B48C4E00B344C2 /* Nunito-Regular.ttf */; };
+		A5837AAE26B48C4F00B344C2 /* Nunito-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A5837A9326B48C4E00B344C2 /* Nunito-Regular.ttf */; };
+		A5837AAF26B48C4F00B344C2 /* Nunito-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A5837A9326B48C4E00B344C2 /* Nunito-Regular.ttf */; };
+		A5837AB026B48C4F00B344C2 /* Nunito-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A5837A9426B48C4E00B344C2 /* Nunito-Light.ttf */; };
+		A5837AB126B48C4F00B344C2 /* Nunito-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A5837A9426B48C4E00B344C2 /* Nunito-Light.ttf */; };
+		A5837AB226B48C4F00B344C2 /* Nunito-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A5837A9426B48C4E00B344C2 /* Nunito-Light.ttf */; };
+		A5837AB326B48C4F00B344C2 /* Nunito-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A5837A9526B48C4F00B344C2 /* Nunito-ExtraLight.ttf */; };
+		A5837AB426B48C4F00B344C2 /* Nunito-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A5837A9526B48C4F00B344C2 /* Nunito-ExtraLight.ttf */; };
+		A5837AB526B48C4F00B344C2 /* Nunito-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A5837A9526B48C4F00B344C2 /* Nunito-ExtraLight.ttf */; };
+		A5837AB626B48C4F00B344C2 /* Nunito-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A5837A9626B48C4F00B344C2 /* Nunito-SemiBold.ttf */; };
+		A5837AB726B48C4F00B344C2 /* Nunito-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A5837A9626B48C4F00B344C2 /* Nunito-SemiBold.ttf */; };
+		A5837AB826B48C4F00B344C2 /* Nunito-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A5837A9626B48C4F00B344C2 /* Nunito-SemiBold.ttf */; };
+		A5837AB926B48C4F00B344C2 /* Nunito-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A5837A9726B48C4F00B344C2 /* Nunito-SemiBoldItalic.ttf */; };
+		A5837ABA26B48C4F00B344C2 /* Nunito-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A5837A9726B48C4F00B344C2 /* Nunito-SemiBoldItalic.ttf */; };
+		A5837ABB26B48C4F00B344C2 /* Nunito-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A5837A9726B48C4F00B344C2 /* Nunito-SemiBoldItalic.ttf */; };
+		A5837ABC26B48C4F00B344C2 /* Nunito-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A5837A9826B48C4F00B344C2 /* Nunito-Italic.ttf */; };
+		A5837ABD26B48C4F00B344C2 /* Nunito-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A5837A9826B48C4F00B344C2 /* Nunito-Italic.ttf */; };
+		A5837ABE26B48C4F00B344C2 /* Nunito-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A5837A9826B48C4F00B344C2 /* Nunito-Italic.ttf */; };
+		A5837ABF26B48C4F00B344C2 /* Nunito-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A5837A9926B48C4F00B344C2 /* Nunito-ExtraLightItalic.ttf */; };
+		A5837AC026B48C4F00B344C2 /* Nunito-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A5837A9926B48C4F00B344C2 /* Nunito-ExtraLightItalic.ttf */; };
+		A5837AC126B48C4F00B344C2 /* Nunito-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A5837A9926B48C4F00B344C2 /* Nunito-ExtraLightItalic.ttf */; };
+		A5837AC226B48C4F00B344C2 /* Nunito-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A5837A9A26B48C4F00B344C2 /* Nunito-BlackItalic.ttf */; };
+		A5837AC326B48C4F00B344C2 /* Nunito-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A5837A9A26B48C4F00B344C2 /* Nunito-BlackItalic.ttf */; };
+		A5837AC426B48C5000B344C2 /* Nunito-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A5837A9A26B48C4F00B344C2 /* Nunito-BlackItalic.ttf */; };
+		A5837AC626B4CDE700B344C2 /* customizedViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5837AC526B4CDE700B344C2 /* customizedViews.swift */; };
+		A5837AC726B4CDE700B344C2 /* customizedViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5837AC526B4CDE700B344C2 /* customizedViews.swift */; };
+		A5837AC826B4CDE700B344C2 /* customizedViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5837AC526B4CDE700B344C2 /* customizedViews.swift */; };
+		A58F29FA26B722B400C3EC24 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = A58F29F926B722B400C3EC24 /* HomeScreen.swift */; };
+		A58F29FC26B7236B00C3EC24 /* SukhumvitTadmaiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = A58F29FB26B7236B00C3EC24 /* SukhumvitTadmaiBold.otf */; };
+		A58F29FD26B7236B00C3EC24 /* SukhumvitTadmaiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = A58F29FB26B7236B00C3EC24 /* SukhumvitTadmaiBold.otf */; };
+		A58F29FE26B7236B00C3EC24 /* SukhumvitTadmaiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = A58F29FB26B7236B00C3EC24 /* SukhumvitTadmaiBold.otf */; };
+		A58F2A0026B726D500C3EC24 /* GeometricShapes.swift in Sources */ = {isa = PBXBuildFile; fileRef = A58F29FF26B726D500C3EC24 /* GeometricShapes.swift */; };
+		A58F2A0126B726D500C3EC24 /* GeometricShapes.swift in Sources */ = {isa = PBXBuildFile; fileRef = A58F29FF26B726D500C3EC24 /* GeometricShapes.swift */; };
+		A58F2A0226B726D500C3EC24 /* GeometricShapes.swift in Sources */ = {isa = PBXBuildFile; fileRef = A58F29FF26B726D500C3EC24 /* GeometricShapes.swift */; };
+		A59D0F8926B9FE3000031C64 /* ProductCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = A59D0F8826B9FE3000031C64 /* ProductCard.swift */; };
+		A59D0F8A26B9FE3000031C64 /* ProductCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = A59D0F8826B9FE3000031C64 /* ProductCard.swift */; };
+		A59D0F8B26B9FE3000031C64 /* ProductCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = A59D0F8826B9FE3000031C64 /* ProductCard.swift */; };
+		A5A2624B26C313F3002FFD46 /* OrdersScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A2624A26C313F3002FFD46 /* OrdersScreen.swift */; };
+		A5A2624C26C313F3002FFD46 /* OrdersScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A2624A26C313F3002FFD46 /* OrdersScreen.swift */; };
+		A5A2624D26C313F3002FFD46 /* OrdersScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A2624A26C313F3002FFD46 /* OrdersScreen.swift */; };
+		A5A2624F26C316EF002FFD46 /* Orders.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A2624E26C316EF002FFD46 /* Orders.swift */; };
+		A5A2625026C316EF002FFD46 /* Orders.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A2624E26C316EF002FFD46 /* Orders.swift */; };
+		A5A2625126C316EF002FFD46 /* Orders.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A2624E26C316EF002FFD46 /* Orders.swift */; };
+		A5A2625726C3346C002FFD46 /* SettingsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A2625626C3346C002FFD46 /* SettingsScreen.swift */; };
+		A5A2625826C3346C002FFD46 /* SettingsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A2625626C3346C002FFD46 /* SettingsScreen.swift */; };
+		A5A2625926C3346C002FFD46 /* SettingsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A2625626C3346C002FFD46 /* SettingsScreen.swift */; };
+		A5A2625B26C3347D002FFD46 /* AccountScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A2625A26C3347D002FFD46 /* AccountScreen.swift */; };
+		A5A2625C26C3347D002FFD46 /* AccountScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A2625A26C3347D002FFD46 /* AccountScreen.swift */; };
+		A5A2625D26C3347D002FFD46 /* AccountScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A2625A26C3347D002FFD46 /* AccountScreen.swift */; };
+		A5D2BC5626C6AD2200A95C30 /* SwipeItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D2BC5526C6AD2200A95C30 /* SwipeItem.swift */; };
+		A5D2BC5826C6F27000A95C30 /* MyCart.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D2BC5726C6F27000A95C30 /* MyCart.swift */; };
+		A5D2BC5926C6F27000A95C30 /* MyCart.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D2BC5726C6F27000A95C30 /* MyCart.swift */; };
+		A5D2BC5A26C6F27000A95C30 /* MyCart.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D2BC5726C6F27000A95C30 /* MyCart.swift */; };
+		A5D2BC6026C08BA70064CF9D /* ProductInfoPopup.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D2BC5F26C08BA70064CF9D /* ProductInfoPopup.swift */; };
+		A5D67FCF26B5AB5200ED76DA /* ProfileScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D67FCE26B5AB5200ED76DA /* ProfileScreen.swift */; };
+		A5D967C826B5F7FD0007D7B9 /* OnboardingScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D967C726B5F7FD0007D7B9 /* OnboardingScreen.swift */; };
+		A5E6782326BED9C900EB6061 /* PaymentBottomCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E6782226BED9C900EB6061 /* PaymentBottomCard.swift */; };
+		A5E6782526BEDA1400EB6061 /* PaymentScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E6782426BEDA1400EB6061 /* PaymentScreen.swift */; };
+		A5E6782626BEDA1400EB6061 /* PaymentScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E6782426BEDA1400EB6061 /* PaymentScreen.swift */; };
+		A5E6782726BEDA1400EB6061 /* PaymentScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E6782426BEDA1400EB6061 /* PaymentScreen.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0D198EB326ABB39200622AEA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0D198E9426ABB39000622AEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0D198E9B26ABB39000622AEA;
+			remoteInfo = MindshopUI;
+		};
+		0D198EBE26ABB39300622AEA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0D198E9426ABB39000622AEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0D198E9B26ABB39000622AEA;
+			remoteInfo = MindshopUI;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0D198E9C26ABB39000622AEA /* MindshopUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MindshopUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D198E9F26ABB39000622AEA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0D198EA126ABB39000622AEA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		0D198EA326ABB39000622AEA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0D198EA526ABB39200622AEA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0D198EA826ABB39200622AEA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0D198EAB26ABB39200622AEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0D198EAD26ABB39200622AEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D198EB226ABB39200622AEA /* MindshopUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MindshopUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D198EB626ABB39200622AEA /* MindshopUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MindshopUITests.swift; sourceTree = "<group>"; };
+		0D198EB826ABB39200622AEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D198EBD26ABB39300622AEA /* MindshopUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MindshopUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D198EC126ABB39300622AEA /* MindshopUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MindshopUIUITests.swift; sourceTree = "<group>"; };
+		0D198EC326ABB39300622AEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D198EDD26ABDA5C00622AEA /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		0D198EDF26ABE09000622AEA /* AppConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConfig.swift; sourceTree = "<group>"; };
+		0D198EE426ABFA2E00622AEA /* ConfigHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigHelper.swift; sourceTree = "<group>"; };
+		0D3612D526C60B6600F2FA6A /* Font-Extention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Font-Extention.swift"; sourceTree = "<group>"; };
+		0DC96A7226AD3F1600E6C746 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		0DC96A7426AD3F2000E6C746 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		0DC96A7826AD497600E6C746 /* Onboarding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Onboarding.swift; sourceTree = "<group>"; };
+		15D8B1321278EE08BC86F881 /* Pods-MindshopUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MindshopUITests.release.xcconfig"; path = "Target Support Files/Pods-MindshopUITests/Pods-MindshopUITests.release.xcconfig"; sourceTree = "<group>"; };
+		20E462D0369F2A60753DB677 /* Pods-MindshopUI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MindshopUI.release.xcconfig"; path = "Target Support Files/Pods-MindshopUI/Pods-MindshopUI.release.xcconfig"; sourceTree = "<group>"; };
+		4CA9858617CBD5B9EE1107AD /* Pods_MindshopUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MindshopUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C023BDF560DD71862D2723C /* Pods-MindshopUI-MindshopUIUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MindshopUI-MindshopUIUITests.release.xcconfig"; path = "Target Support Files/Pods-MindshopUI-MindshopUIUITests/Pods-MindshopUI-MindshopUIUITests.release.xcconfig"; sourceTree = "<group>"; };
+		62FB75E183BFE81721E4E697 /* Pods_MindshopUI_MindshopUIUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MindshopUI_MindshopUIUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A3989F9813171705FF26C5A /* Pods-MindshopUI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MindshopUI.debug.xcconfig"; path = "Target Support Files/Pods-MindshopUI/Pods-MindshopUI.debug.xcconfig"; sourceTree = "<group>"; };
+		895E2D9D67F6AE5886C7F530 /* Pods_MindshopUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MindshopUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A52249F326B57B1700F479FA /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		A564BFC926BDE2C2001AA70E /* Popups.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Popups.swift; sourceTree = "<group>"; };
+		A564BFCB26BDE471001AA70E /* PopupViewer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopupViewer.swift; sourceTree = "<group>"; };
+		A565E1A826BEAD550099F634 /* MyCartScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCartScreen.swift; sourceTree = "<group>"; };
+		A576539026BB28DC00EBCA59 /* PopularCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopularCard.swift; sourceTree = "<group>"; };
+		A5837A5D26B4691600B344C2 /* SignUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUp.swift; sourceTree = "<group>"; };
+		A5837A6126B4877000B344C2 /* Quicksand-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Quicksand-VariableFont_wght.ttf"; sourceTree = "<group>"; };
+		A5837A6526B4897600B344C2 /* ZillaSlab-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ZillaSlab-MediumItalic.ttf"; sourceTree = "<group>"; };
+		A5837A6626B4897600B344C2 /* ZillaSlab-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ZillaSlab-Italic.ttf"; sourceTree = "<group>"; };
+		A5837A6726B4897600B344C2 /* ZillaSlab-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ZillaSlab-LightItalic.ttf"; sourceTree = "<group>"; };
+		A5837A6826B4897700B344C2 /* ZillaSlab-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ZillaSlab-BoldItalic.ttf"; sourceTree = "<group>"; };
+		A5837A6926B4897700B344C2 /* ZillaSlab-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ZillaSlab-Light.ttf"; sourceTree = "<group>"; };
+		A5837A6A26B4897700B344C2 /* ZillaSlab-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ZillaSlab-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		A5837A6B26B4897700B344C2 /* ZillaSlab-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ZillaSlab-Medium.ttf"; sourceTree = "<group>"; };
+		A5837A6C26B4897700B344C2 /* ZillaSlab-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ZillaSlab-Bold.ttf"; sourceTree = "<group>"; };
+		A5837A6D26B4897700B344C2 /* ZillaSlab-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ZillaSlab-Regular.ttf"; sourceTree = "<group>"; };
+		A5837A6E26B4897800B344C2 /* ZillaSlab-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ZillaSlab-SemiBold.ttf"; sourceTree = "<group>"; };
+		A5837A8D26B48C4D00B344C2 /* Nunito-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-ExtraBold.ttf"; sourceTree = "<group>"; };
+		A5837A8E26B48C4E00B344C2 /* Nunito-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-BoldItalic.ttf"; sourceTree = "<group>"; };
+		A5837A8F26B48C4E00B344C2 /* Nunito-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-LightItalic.ttf"; sourceTree = "<group>"; };
+		A5837A9026B48C4E00B344C2 /* Nunito-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-Black.ttf"; sourceTree = "<group>"; };
+		A5837A9126B48C4E00B344C2 /* Nunito-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		A5837A9226B48C4E00B344C2 /* Nunito-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-Bold.ttf"; sourceTree = "<group>"; };
+		A5837A9326B48C4E00B344C2 /* Nunito-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-Regular.ttf"; sourceTree = "<group>"; };
+		A5837A9426B48C4E00B344C2 /* Nunito-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-Light.ttf"; sourceTree = "<group>"; };
+		A5837A9526B48C4F00B344C2 /* Nunito-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-ExtraLight.ttf"; sourceTree = "<group>"; };
+		A5837A9626B48C4F00B344C2 /* Nunito-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-SemiBold.ttf"; sourceTree = "<group>"; };
+		A5837A9726B48C4F00B344C2 /* Nunito-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		A5837A9826B48C4F00B344C2 /* Nunito-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-Italic.ttf"; sourceTree = "<group>"; };
+		A5837A9926B48C4F00B344C2 /* Nunito-ExtraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		A5837A9A26B48C4F00B344C2 /* Nunito-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-BlackItalic.ttf"; sourceTree = "<group>"; };
+		A5837AC526B4CDE700B344C2 /* customizedViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = customizedViews.swift; sourceTree = "<group>"; };
+		A58F29F926B722B400C3EC24 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
+		A58F29FB26B7236B00C3EC24 /* SukhumvitTadmaiBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = SukhumvitTadmaiBold.otf; sourceTree = "<group>"; };
+		A58F29FF26B726D500C3EC24 /* GeometricShapes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometricShapes.swift; sourceTree = "<group>"; };
+		A59D0F8826B9FE3000031C64 /* ProductCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCard.swift; sourceTree = "<group>"; };
+		A5A2624A26C313F3002FFD46 /* OrdersScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrdersScreen.swift; sourceTree = "<group>"; };
+		A5A2624E26C316EF002FFD46 /* Orders.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Orders.swift; sourceTree = "<group>"; };
+		A5A2625626C3346C002FFD46 /* SettingsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsScreen.swift; sourceTree = "<group>"; };
+		A5A2625A26C3347D002FFD46 /* AccountScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountScreen.swift; sourceTree = "<group>"; };
+		A5D2BC5526C6AD2200A95C30 /* SwipeItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeItem.swift; sourceTree = "<group>"; };
+		A5D2BC5726C6F27000A95C30 /* MyCart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCart.swift; sourceTree = "<group>"; };
+		A5D2BC5F26C08BA70064CF9D /* ProductInfoPopup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductInfoPopup.swift; sourceTree = "<group>"; };
+		A5D67FCE26B5AB5200ED76DA /* ProfileScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileScreen.swift; sourceTree = "<group>"; };
+		A5D967C726B5F7FD0007D7B9 /* OnboardingScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingScreen.swift; sourceTree = "<group>"; };
+		A5E6782226BED9C900EB6061 /* PaymentBottomCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentBottomCard.swift; sourceTree = "<group>"; };
+		A5E6782426BEDA1400EB6061 /* PaymentScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentScreen.swift; sourceTree = "<group>"; };
+		CB428DBC02DD56CAE0327E96 /* Pods-MindshopUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MindshopUITests.debug.xcconfig"; path = "Target Support Files/Pods-MindshopUITests/Pods-MindshopUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		CF2219A67D47311E86D67FEF /* Pods-MindshopUI-MindshopUIUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MindshopUI-MindshopUIUITests.debug.xcconfig"; path = "Target Support Files/Pods-MindshopUI-MindshopUIUITests/Pods-MindshopUI-MindshopUIUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0D198E9926ABB39000622AEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E43AEB08FC515E22B76FBDB /* Pods_MindshopUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D198EAF26ABB39200622AEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C28161CC91B3EF4D67D8663 /* Pods_MindshopUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D198EBA26ABB39300622AEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D3D203B90CABB5CEF569DF9 /* Pods_MindshopUI_MindshopUIUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0D198E9326ABB39000622AEA = {
+			isa = PBXGroup;
+			children = (
+				0D198E9E26ABB39000622AEA /* MindshopUI */,
+				0D198EB526ABB39200622AEA /* MindshopUITests */,
+				0D198EC026ABB39300622AEA /* MindshopUIUITests */,
+				0D198E9D26ABB39000622AEA /* Products */,
+				25D5F2EA9D1C705ED2F2453B /* Pods */,
+				CDD94F1F6C540E90F268FBB3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0D198E9D26ABB39000622AEA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0D198E9C26ABB39000622AEA /* MindshopUI.app */,
+				0D198EB226ABB39200622AEA /* MindshopUITests.xctest */,
+				0D198EBD26ABB39300622AEA /* MindshopUIUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0D198E9E26ABB39000622AEA /* MindshopUI */ = {
+			isa = PBXGroup;
+			children = (
+				A5837A6026B4862B00B344C2 /* Fonts */,
+				A5837A5C26B468EF00B344C2 /* Views */,
+				0D198EE626AC077500622AEA /* Components */,
+				0D198EE326ABFA1E00622AEA /* Helpers */,
+				0D198ED726ABBC3400622AEA /* Models */,
+				0D198E9F26ABB39000622AEA /* AppDelegate.swift */,
+				0D198EA126ABB39000622AEA /* SceneDelegate.swift */,
+				0D198EA326ABB39000622AEA /* ContentView.swift */,
+				0D198EA526ABB39200622AEA /* Assets.xcassets */,
+				0D198EAA26ABB39200622AEA /* LaunchScreen.storyboard */,
+				0D198EAD26ABB39200622AEA /* Info.plist */,
+				0D198EDD26ABDA5C00622AEA /* GoogleService-Info.plist */,
+				0D198EA726ABB39200622AEA /* Preview Content */,
+			);
+			path = MindshopUI;
+			sourceTree = "<group>";
+		};
+		0D198EA726ABB39200622AEA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				0D198EA826ABB39200622AEA /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0D198EB526ABB39200622AEA /* MindshopUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0D198EB626ABB39200622AEA /* MindshopUITests.swift */,
+				0D198EB826ABB39200622AEA /* Info.plist */,
+			);
+			path = MindshopUITests;
+			sourceTree = "<group>";
+		};
+		0D198EC026ABB39300622AEA /* MindshopUIUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0D198EC126ABB39300622AEA /* MindshopUIUITests.swift */,
+				0D198EC326ABB39300622AEA /* Info.plist */,
+			);
+			path = MindshopUIUITests;
+			sourceTree = "<group>";
+		};
+		0D198ED726ABBC3400622AEA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0D198EDF26ABE09000622AEA /* AppConfig.swift */,
+				0DC96A7226AD3F1600E6C746 /* Product.swift */,
+				0DC96A7426AD3F2000E6C746 /* Category.swift */,
+				0DC96A7826AD497600E6C746 /* Onboarding.swift */,
+				A5A2624E26C316EF002FFD46 /* Orders.swift */,
+				A5D2BC5726C6F27000A95C30 /* MyCart.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		0D198EE326ABFA1E00622AEA /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				0D198EE426ABFA2E00622AEA /* ConfigHelper.swift */,
+				A52249F326B57B1700F479FA /* Constants.swift */,
+				0D3612D526C60B6600F2FA6A /* Font-Extention.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		0D198EE626AC077500622AEA /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				A5837AC526B4CDE700B344C2 /* customizedViews.swift */,
+				A58F29FF26B726D500C3EC24 /* GeometricShapes.swift */,
+				A59D0F8826B9FE3000031C64 /* ProductCard.swift */,
+				A576539026BB28DC00EBCA59 /* PopularCard.swift */,
+				A564BFC926BDE2C2001AA70E /* Popups.swift */,
+				A564BFCB26BDE471001AA70E /* PopupViewer.swift */,
+				A5E6782226BED9C900EB6061 /* PaymentBottomCard.swift */,
+				A5D2BC5F26C08BA70064CF9D /* ProductInfoPopup.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		25D5F2EA9D1C705ED2F2453B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7A3989F9813171705FF26C5A /* Pods-MindshopUI.debug.xcconfig */,
+				20E462D0369F2A60753DB677 /* Pods-MindshopUI.release.xcconfig */,
+				CF2219A67D47311E86D67FEF /* Pods-MindshopUI-MindshopUIUITests.debug.xcconfig */,
+				5C023BDF560DD71862D2723C /* Pods-MindshopUI-MindshopUIUITests.release.xcconfig */,
+				CB428DBC02DD56CAE0327E96 /* Pods-MindshopUITests.debug.xcconfig */,
+				15D8B1321278EE08BC86F881 /* Pods-MindshopUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A5837A5C26B468EF00B344C2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A5837A5D26B4691600B344C2 /* SignUp.swift */,
+				A5D67FCE26B5AB5200ED76DA /* ProfileScreen.swift */,
+				A5D967C726B5F7FD0007D7B9 /* OnboardingScreen.swift */,
+				A58F29F926B722B400C3EC24 /* HomeScreen.swift */,
+				A565E1A826BEAD550099F634 /* MyCartScreen.swift */,
+				A5E6782426BEDA1400EB6061 /* PaymentScreen.swift */,
+				A5A2624A26C313F3002FFD46 /* OrdersScreen.swift */,
+				A5A2625626C3346C002FFD46 /* SettingsScreen.swift */,
+				A5A2625A26C3347D002FFD46 /* AccountScreen.swift */,
+				A5D2BC5526C6AD2200A95C30 /* SwipeItem.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A5837A6026B4862B00B344C2 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				A58F29FB26B7236B00C3EC24 /* SukhumvitTadmaiBold.otf */,
+				A5837A9026B48C4E00B344C2 /* Nunito-Black.ttf */,
+				A5837A9A26B48C4F00B344C2 /* Nunito-BlackItalic.ttf */,
+				A5837A9226B48C4E00B344C2 /* Nunito-Bold.ttf */,
+				A5837A8E26B48C4E00B344C2 /* Nunito-BoldItalic.ttf */,
+				A5837A8D26B48C4D00B344C2 /* Nunito-ExtraBold.ttf */,
+				A5837A9126B48C4E00B344C2 /* Nunito-ExtraBoldItalic.ttf */,
+				A5837A9526B48C4F00B344C2 /* Nunito-ExtraLight.ttf */,
+				A5837A9926B48C4F00B344C2 /* Nunito-ExtraLightItalic.ttf */,
+				A5837A9826B48C4F00B344C2 /* Nunito-Italic.ttf */,
+				A5837A9426B48C4E00B344C2 /* Nunito-Light.ttf */,
+				A5837A8F26B48C4E00B344C2 /* Nunito-LightItalic.ttf */,
+				A5837A9326B48C4E00B344C2 /* Nunito-Regular.ttf */,
+				A5837A9626B48C4F00B344C2 /* Nunito-SemiBold.ttf */,
+				A5837A9726B48C4F00B344C2 /* Nunito-SemiBoldItalic.ttf */,
+				A5837A6C26B4897700B344C2 /* ZillaSlab-Bold.ttf */,
+				A5837A6826B4897700B344C2 /* ZillaSlab-BoldItalic.ttf */,
+				A5837A6626B4897600B344C2 /* ZillaSlab-Italic.ttf */,
+				A5837A6926B4897700B344C2 /* ZillaSlab-Light.ttf */,
+				A5837A6726B4897600B344C2 /* ZillaSlab-LightItalic.ttf */,
+				A5837A6B26B4897700B344C2 /* ZillaSlab-Medium.ttf */,
+				A5837A6526B4897600B344C2 /* ZillaSlab-MediumItalic.ttf */,
+				A5837A6D26B4897700B344C2 /* ZillaSlab-Regular.ttf */,
+				A5837A6E26B4897800B344C2 /* ZillaSlab-SemiBold.ttf */,
+				A5837A6A26B4897700B344C2 /* ZillaSlab-SemiBoldItalic.ttf */,
+				A5837A6126B4877000B344C2 /* Quicksand-VariableFont_wght.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		CDD94F1F6C540E90F268FBB3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4CA9858617CBD5B9EE1107AD /* Pods_MindshopUI.framework */,
+				62FB75E183BFE81721E4E697 /* Pods_MindshopUI_MindshopUIUITests.framework */,
+				895E2D9D67F6AE5886C7F530 /* Pods_MindshopUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0D198E9B26ABB39000622AEA /* MindshopUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D198EC626ABB39300622AEA /* Build configuration list for PBXNativeTarget "MindshopUI" */;
+			buildPhases = (
+				9492306451FD03CA9E9B3B2D /* [CP] Check Pods Manifest.lock */,
+				0D198E9826ABB39000622AEA /* Sources */,
+				0D198E9926ABB39000622AEA /* Frameworks */,
+				0D198E9A26ABB39000622AEA /* Resources */,
+				D2605F694A325EC68FA8CDD5 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MindshopUI;
+			productName = MindshopUI;
+			productReference = 0D198E9C26ABB39000622AEA /* MindshopUI.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0D198EB126ABB39200622AEA /* MindshopUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D198EC926ABB39300622AEA /* Build configuration list for PBXNativeTarget "MindshopUITests" */;
+			buildPhases = (
+				84126A68A66A6FE4335E8B32 /* [CP] Check Pods Manifest.lock */,
+				0D198EAE26ABB39200622AEA /* Sources */,
+				0D198EAF26ABB39200622AEA /* Frameworks */,
+				0D198EB026ABB39200622AEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0D198EB426ABB39200622AEA /* PBXTargetDependency */,
+			);
+			name = MindshopUITests;
+			productName = MindshopUITests;
+			productReference = 0D198EB226ABB39200622AEA /* MindshopUITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0D198EBC26ABB39300622AEA /* MindshopUIUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D198ECC26ABB39300622AEA /* Build configuration list for PBXNativeTarget "MindshopUIUITests" */;
+			buildPhases = (
+				DF0E54D8BFA045959ACA3998 /* [CP] Check Pods Manifest.lock */,
+				0D198EB926ABB39300622AEA /* Sources */,
+				0D198EBA26ABB39300622AEA /* Frameworks */,
+				0D198EBB26ABB39300622AEA /* Resources */,
+				5AA372FDAE8DCFF2C67C3B5F /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0D198EBF26ABB39300622AEA /* PBXTargetDependency */,
+			);
+			name = MindshopUIUITests;
+			productName = MindshopUIUITests;
+			productReference = 0D198EBD26ABB39300622AEA /* MindshopUIUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0D198E9426ABB39000622AEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					0D198E9B26ABB39000622AEA = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					0D198EB126ABB39200622AEA = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 0D198E9B26ABB39000622AEA;
+					};
+					0D198EBC26ABB39300622AEA = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 0D198E9B26ABB39000622AEA;
+					};
+				};
+			};
+			buildConfigurationList = 0D198E9726ABB39000622AEA /* Build configuration list for PBXProject "MindshopUI" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0D198E9326ABB39000622AEA;
+			productRefGroup = 0D198E9D26ABB39000622AEA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0D198E9B26ABB39000622AEA /* MindshopUI */,
+				0D198EB126ABB39200622AEA /* MindshopUITests */,
+				0D198EBC26ABB39300622AEA /* MindshopUIUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0D198E9A26ABB39000622AEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5837AAD26B48C4F00B344C2 /* Nunito-Regular.ttf in Resources */,
+				A5837A8126B4897800B344C2 /* ZillaSlab-Medium.ttf in Resources */,
+				A5837A6F26B4897800B344C2 /* ZillaSlab-MediumItalic.ttf in Resources */,
+				A5837A7226B4897800B344C2 /* ZillaSlab-Italic.ttf in Resources */,
+				A5837AB626B48C4F00B344C2 /* Nunito-SemiBold.ttf in Resources */,
+				A5837A7E26B4897800B344C2 /* ZillaSlab-SemiBoldItalic.ttf in Resources */,
+				A5837AA126B48C4F00B344C2 /* Nunito-LightItalic.ttf in Resources */,
+				A5837ABF26B48C4F00B344C2 /* Nunito-ExtraLightItalic.ttf in Resources */,
+				A5837A7826B4897800B344C2 /* ZillaSlab-BoldItalic.ttf in Resources */,
+				A5837AA426B48C4F00B344C2 /* Nunito-Black.ttf in Resources */,
+				A5837AAA26B48C4F00B344C2 /* Nunito-Bold.ttf in Resources */,
+				A58F29FC26B7236B00C3EC24 /* SukhumvitTadmaiBold.otf in Resources */,
+				A5837A8426B4897800B344C2 /* ZillaSlab-Bold.ttf in Resources */,
+				0D198EAC26ABB39200622AEA /* LaunchScreen.storyboard in Resources */,
+				A5837A9E26B48C4F00B344C2 /* Nunito-BoldItalic.ttf in Resources */,
+				0D198EDE26ABDA5C00622AEA /* GoogleService-Info.plist in Resources */,
+				A5837AA726B48C4F00B344C2 /* Nunito-ExtraBoldItalic.ttf in Resources */,
+				A5837AC226B48C4F00B344C2 /* Nunito-BlackItalic.ttf in Resources */,
+				0D198EA926ABB39200622AEA /* Preview Assets.xcassets in Resources */,
+				A5837AB326B48C4F00B344C2 /* Nunito-ExtraLight.ttf in Resources */,
+				A5837A7B26B4897800B344C2 /* ZillaSlab-Light.ttf in Resources */,
+				A5837AB026B48C4F00B344C2 /* Nunito-Light.ttf in Resources */,
+				A5837ABC26B48C4F00B344C2 /* Nunito-Italic.ttf in Resources */,
+				A5837A8726B4897800B344C2 /* ZillaSlab-Regular.ttf in Resources */,
+				A5837A8A26B4897800B344C2 /* ZillaSlab-SemiBold.ttf in Resources */,
+				A5837A6226B4877100B344C2 /* Quicksand-VariableFont_wght.ttf in Resources */,
+				A5837AB926B48C4F00B344C2 /* Nunito-SemiBoldItalic.ttf in Resources */,
+				A5837A7526B4897800B344C2 /* ZillaSlab-LightItalic.ttf in Resources */,
+				0D198EA626ABB39200622AEA /* Assets.xcassets in Resources */,
+				A5837A9B26B48C4F00B344C2 /* Nunito-ExtraBold.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D198EB026ABB39200622AEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5837AB726B48C4F00B344C2 /* Nunito-SemiBold.ttf in Resources */,
+				A5837A7F26B4897800B344C2 /* ZillaSlab-SemiBoldItalic.ttf in Resources */,
+				A5837ABD26B48C4F00B344C2 /* Nunito-Italic.ttf in Resources */,
+				A5837A7026B4897800B344C2 /* ZillaSlab-MediumItalic.ttf in Resources */,
+				A5837AC326B48C4F00B344C2 /* Nunito-BlackItalic.ttf in Resources */,
+				A5837AB126B48C4F00B344C2 /* Nunito-Light.ttf in Resources */,
+				A5837A8526B4897800B344C2 /* ZillaSlab-Bold.ttf in Resources */,
+				A5837A9C26B48C4F00B344C2 /* Nunito-ExtraBold.ttf in Resources */,
+				A5837AA226B48C4F00B344C2 /* Nunito-LightItalic.ttf in Resources */,
+				A5837A7326B4897800B344C2 /* ZillaSlab-Italic.ttf in Resources */,
+				A5837AAE26B48C4F00B344C2 /* Nunito-Regular.ttf in Resources */,
+				A5837A7C26B4897800B344C2 /* ZillaSlab-Light.ttf in Resources */,
+				A5837A8226B4897800B344C2 /* ZillaSlab-Medium.ttf in Resources */,
+				A58F29FD26B7236B00C3EC24 /* SukhumvitTadmaiBold.otf in Resources */,
+				A5837A7626B4897800B344C2 /* ZillaSlab-LightItalic.ttf in Resources */,
+				A5837A6326B4877100B344C2 /* Quicksand-VariableFont_wght.ttf in Resources */,
+				A5837A8B26B4897800B344C2 /* ZillaSlab-SemiBold.ttf in Resources */,
+				A5837ABA26B48C4F00B344C2 /* Nunito-SemiBoldItalic.ttf in Resources */,
+				A5837AA826B48C4F00B344C2 /* Nunito-ExtraBoldItalic.ttf in Resources */,
+				A5837AAB26B48C4F00B344C2 /* Nunito-Bold.ttf in Resources */,
+				A5837AA526B48C4F00B344C2 /* Nunito-Black.ttf in Resources */,
+				A5837AC026B48C4F00B344C2 /* Nunito-ExtraLightItalic.ttf in Resources */,
+				A5837A8826B4897800B344C2 /* ZillaSlab-Regular.ttf in Resources */,
+				A5837A7926B4897800B344C2 /* ZillaSlab-BoldItalic.ttf in Resources */,
+				A5837A9F26B48C4F00B344C2 /* Nunito-BoldItalic.ttf in Resources */,
+				A5837AB426B48C4F00B344C2 /* Nunito-ExtraLight.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D198EBB26ABB39300622AEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5837AB826B48C4F00B344C2 /* Nunito-SemiBold.ttf in Resources */,
+				A5837A8026B4897800B344C2 /* ZillaSlab-SemiBoldItalic.ttf in Resources */,
+				A5837ABE26B48C4F00B344C2 /* Nunito-Italic.ttf in Resources */,
+				A5837A7126B4897800B344C2 /* ZillaSlab-MediumItalic.ttf in Resources */,
+				A5837AC426B48C5000B344C2 /* Nunito-BlackItalic.ttf in Resources */,
+				A5837AB226B48C4F00B344C2 /* Nunito-Light.ttf in Resources */,
+				A5837A8626B4897800B344C2 /* ZillaSlab-Bold.ttf in Resources */,
+				A5837A9D26B48C4F00B344C2 /* Nunito-ExtraBold.ttf in Resources */,
+				A5837AA326B48C4F00B344C2 /* Nunito-LightItalic.ttf in Resources */,
+				A5837A7426B4897800B344C2 /* ZillaSlab-Italic.ttf in Resources */,
+				A5837AAF26B48C4F00B344C2 /* Nunito-Regular.ttf in Resources */,
+				A5837A7D26B4897800B344C2 /* ZillaSlab-Light.ttf in Resources */,
+				A5837A8326B4897800B344C2 /* ZillaSlab-Medium.ttf in Resources */,
+				A58F29FE26B7236B00C3EC24 /* SukhumvitTadmaiBold.otf in Resources */,
+				A5837A7726B4897800B344C2 /* ZillaSlab-LightItalic.ttf in Resources */,
+				A5837A6426B4877100B344C2 /* Quicksand-VariableFont_wght.ttf in Resources */,
+				A5837A8C26B4897800B344C2 /* ZillaSlab-SemiBold.ttf in Resources */,
+				A5837ABB26B48C4F00B344C2 /* Nunito-SemiBoldItalic.ttf in Resources */,
+				A5837AA926B48C4F00B344C2 /* Nunito-ExtraBoldItalic.ttf in Resources */,
+				A5837AAC26B48C4F00B344C2 /* Nunito-Bold.ttf in Resources */,
+				A5837AA626B48C4F00B344C2 /* Nunito-Black.ttf in Resources */,
+				A5837AC126B48C4F00B344C2 /* Nunito-ExtraLightItalic.ttf in Resources */,
+				A5837A8926B4897800B344C2 /* ZillaSlab-Regular.ttf in Resources */,
+				A5837A7A26B4897800B344C2 /* ZillaSlab-BoldItalic.ttf in Resources */,
+				A5837AA026B48C4F00B344C2 /* Nunito-BoldItalic.ttf in Resources */,
+				A5837AB526B48C4F00B344C2 /* Nunito-ExtraLight.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5AA372FDAE8DCFF2C67C3B5F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MindshopUI-MindshopUIUITests/Pods-MindshopUI-MindshopUIUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MindshopUI-MindshopUIUITests/Pods-MindshopUI-MindshopUIUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MindshopUI-MindshopUIUITests/Pods-MindshopUI-MindshopUIUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		84126A68A66A6FE4335E8B32 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MindshopUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9492306451FD03CA9E9B3B2D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MindshopUI-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D2605F694A325EC68FA8CDD5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MindshopUI/Pods-MindshopUI-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MindshopUI/Pods-MindshopUI-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MindshopUI/Pods-MindshopUI-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DF0E54D8BFA045959ACA3998 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MindshopUI-MindshopUIUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0D198E9826ABB39000622AEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5A2625726C3346C002FFD46 /* SettingsScreen.swift in Sources */,
+				0D198EE026ABE09000622AEA /* AppConfig.swift in Sources */,
+				A5D2BC6026C08BA70064CF9D /* ProductInfoPopup.swift in Sources */,
+				A59D0F8926B9FE3000031C64 /* ProductCard.swift in Sources */,
+				A52249F426B57B1700F479FA /* Constants.swift in Sources */,
+				0D198EA026ABB39000622AEA /* AppDelegate.swift in Sources */,
+				A576539126BB28DC00EBCA59 /* PopularCard.swift in Sources */,
+				A5D67FCF26B5AB5200ED76DA /* ProfileScreen.swift in Sources */,
+				A5E6782526BEDA1400EB6061 /* PaymentScreen.swift in Sources */,
+				0D198EA226ABB39000622AEA /* SceneDelegate.swift in Sources */,
+				A5A2625B26C3347D002FFD46 /* AccountScreen.swift in Sources */,
+				0D198EA426ABB39000622AEA /* ContentView.swift in Sources */,
+				0D198EE526ABFA2E00622AEA /* ConfigHelper.swift in Sources */,
+				0DC96A7326AD3F1600E6C746 /* Product.swift in Sources */,
+				0DC96A7926AD497600E6C746 /* Onboarding.swift in Sources */,
+				A5D967C826B5F7FD0007D7B9 /* OnboardingScreen.swift in Sources */,
+				A58F29FA26B722B400C3EC24 /* HomeScreen.swift in Sources */,
+				A5A2624F26C316EF002FFD46 /* Orders.swift in Sources */,
+				A565E1A926BEAD550099F634 /* MyCartScreen.swift in Sources */,
+				A564BFCC26BDE471001AA70E /* PopupViewer.swift in Sources */,
+				A5A2624B26C313F3002FFD46 /* OrdersScreen.swift in Sources */,
+				A58F2A0026B726D500C3EC24 /* GeometricShapes.swift in Sources */,
+				0D3612D626C60B6600F2FA6A /* Font-Extention.swift in Sources */,
+				A5D2BC5826C6F27000A95C30 /* MyCart.swift in Sources */,
+				A5837A5E26B4691600B344C2 /* SignUp.swift in Sources */,
+				0DC96A7526AD3F2000E6C746 /* Category.swift in Sources */,
+				A5E6782326BED9C900EB6061 /* PaymentBottomCard.swift in Sources */,
+				A5D2BC5626C6AD2200A95C30 /* SwipeItem.swift in Sources */,
+				A564BFCA26BDE2C2001AA70E /* Popups.swift in Sources */,
+				A5837AC626B4CDE700B344C2 /* customizedViews.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D198EAE26ABB39200622AEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5A2625826C3346C002FFD46 /* SettingsScreen.swift in Sources */,
+				0D198EB726ABB39200622AEA /* MindshopUITests.swift in Sources */,
+				A5A2625026C316EF002FFD46 /* Orders.swift in Sources */,
+				A5D2BC5926C6F27000A95C30 /* MyCart.swift in Sources */,
+				A5A2625C26C3347D002FFD46 /* AccountScreen.swift in Sources */,
+				A58F2A0126B726D500C3EC24 /* GeometricShapes.swift in Sources */,
+				A5837AC726B4CDE700B344C2 /* customizedViews.swift in Sources */,
+				A59D0F8A26B9FE3000031C64 /* ProductCard.swift in Sources */,
+				A5A2624C26C313F3002FFD46 /* OrdersScreen.swift in Sources */,
+				A5E6782626BEDA1400EB6061 /* PaymentScreen.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D198EB926ABB39300622AEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5A2625926C3346C002FFD46 /* SettingsScreen.swift in Sources */,
+				0D198EC226ABB39300622AEA /* MindshopUIUITests.swift in Sources */,
+				A5A2625126C316EF002FFD46 /* Orders.swift in Sources */,
+				A5D2BC5A26C6F27000A95C30 /* MyCart.swift in Sources */,
+				A5A2625D26C3347D002FFD46 /* AccountScreen.swift in Sources */,
+				A58F2A0226B726D500C3EC24 /* GeometricShapes.swift in Sources */,
+				A5837AC826B4CDE700B344C2 /* customizedViews.swift in Sources */,
+				A59D0F8B26B9FE3000031C64 /* ProductCard.swift in Sources */,
+				A5A2624D26C313F3002FFD46 /* OrdersScreen.swift in Sources */,
+				A5E6782726BEDA1400EB6061 /* PaymentScreen.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0D198EB426ABB39200622AEA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0D198E9B26ABB39000622AEA /* MindshopUI */;
+			targetProxy = 0D198EB326ABB39200622AEA /* PBXContainerItemProxy */;
+		};
+		0D198EBF26ABB39300622AEA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0D198E9B26ABB39000622AEA /* MindshopUI */;
+			targetProxy = 0D198EBE26ABB39300622AEA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0D198EAA26ABB39200622AEA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0D198EAB26ABB39200622AEA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0D198EC426ABB39300622AEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0D198EC526ABB39300622AEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0D198EC726ABB39300622AEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A3989F9813171705FF26C5A /* Pods-MindshopUI.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"MindshopUI/Preview Content\"";
+				DEVELOPMENT_TEAM = 4U6A577989;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = MindshopUI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.mindzone.MindshopUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0D198EC826ABB39300622AEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20E462D0369F2A60753DB677 /* Pods-MindshopUI.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"MindshopUI/Preview Content\"";
+				DEVELOPMENT_TEAM = 4U6A577989;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = MindshopUI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.mindzone.MindshopUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0D198ECA26ABB39300622AEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB428DBC02DD56CAE0327E96 /* Pods-MindshopUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4U6A577989;
+				INFOPLIST_FILE = MindshopUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.mindzone.MindshopUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MindshopUI.app/MindshopUI";
+			};
+			name = Debug;
+		};
+		0D198ECB26ABB39300622AEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15D8B1321278EE08BC86F881 /* Pods-MindshopUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4U6A577989;
+				INFOPLIST_FILE = MindshopUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.mindzone.MindshopUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MindshopUI.app/MindshopUI";
+			};
+			name = Release;
+		};
+		0D198ECD26ABB39300622AEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF2219A67D47311E86D67FEF /* Pods-MindshopUI-MindshopUIUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4U6A577989;
+				INFOPLIST_FILE = MindshopUIUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.mindzone.MindshopUIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MindshopUI;
+			};
+			name = Debug;
+		};
+		0D198ECE26ABB39300622AEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C023BDF560DD71862D2723C /* Pods-MindshopUI-MindshopUIUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4U6A577989;
+				INFOPLIST_FILE = MindshopUIUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.mindzone.MindshopUIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MindshopUI;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0D198E9726ABB39000622AEA /* Build configuration list for PBXProject "MindshopUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D198EC426ABB39300622AEA /* Debug */,
+				0D198EC526ABB39300622AEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0D198EC626ABB39300622AEA /* Build configuration list for PBXNativeTarget "MindshopUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D198EC726ABB39300622AEA /* Debug */,
+				0D198EC826ABB39300622AEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0D198EC926ABB39300622AEA /* Build configuration list for PBXNativeTarget "MindshopUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D198ECA26ABB39300622AEA /* Debug */,
+				0D198ECB26ABB39300622AEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0D198ECC26ABB39300622AEA /* Build configuration list for PBXNativeTarget "MindshopUIUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D198ECD26ABB39300622AEA /* Debug */,
+				0D198ECE26ABB39300622AEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0D198E9426ABB39000622AEA /* Project object */;
+}
